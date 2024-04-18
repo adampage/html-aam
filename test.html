@@ -34,29 +34,29 @@ dfn{cursor:pointer}
 .dfn-panel li{margin-left:1em}
 .dfn-panel.docked{position:fixed;left:.5em;top:unset;bottom:2em;margin:0 auto;max-width:calc(100vw - .75em * 2 - .5em - .2em * 2);max-height:30vh;overflow:auto}
 </style>
-
-
+  
+  
 <title>HTML Accessibility API Mappings 1.0</title>
-
-
-
-
-
+  
+  
+  
+  
+  
 <script src="common/script/mapping-tables.js"></script>
 
-
+  
 <link href="common/css/mapping-tables.css" rel="stylesheet" type="text/css">
-
+  
 <link href="common/css/common.css" rel="stylesheet" type="text/css">
-
+  
 <link href="css/html-aam.css" rel="stylesheet">
 
-
-
-
+  
+  
+  
 <script src="script/jquery.details.min.js"></script>
-
-
+  
+  
 <script>
     var mappingTableLabels = {
       viewByTable: "View as a single table",
@@ -233,7 +233,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <body class="h-entry" data-cite="HTML core-aam accname wai-aria"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
-    <h1 id="title" class="title">HTML Accessibility API Mappings 1.0</h1>
+    <h1 id="title" class="title">HTML Accessibility API Mappings 1.0</h1> 
     <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-05-23">23 May 2022</time></p>
     <details open="">
       <summary>More details about this document</summary>
@@ -250,11 +250,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                   </dd><dd>
                     <a href="https://github.com/w3c/html-aam/commits/">Commit history</a>
                   </dd>
-
-
-
-
-
+        
+        
+        
+        
+        
         <dt>Editors:</dt><dd class="editor p-author h-card vcard" data-editor-id="35007">
     <span class="p-name fn">Steve Faulkner</span> (<a class="p-org org h-org" href="https://www.tpgi.com/">TPGi</a>)
   </dd><dd class="editor p-author h-card vcard" data-editor-id="103856">
@@ -271,24 +271,24 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   </dd><dd class="editor p-author h-card vcard" data-editor-id="11897">
     <span class="p-name fn">Cynthia Shelly</span> (<a class="p-org org h-org" href="https://www.microsoft.com/">Microsoft</a>) (until September 2013)
   </dd>
-
+        
         <dt>Feedback:</dt><dd>
         <a href="https://github.com/w3c/html-aam/">GitHub w3c/html-aam</a>
         (<a href="https://github.com/w3c/html-aam/pulls/">pull requests</a>,
         <a href="https://github.com/w3c/html-aam/issues/new/choose">new issue</a>,
         <a href="https://github.com/w3c/html-aam/issues/">open issues</a>)
       </dd>
-
-
+        
+        
       </dl>
     </details>
-
-
+    
+    
     <p class="copyright">
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
     ©
     2015-2022
-
+    
     <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
     <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
     <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C
@@ -319,21 +319,21 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </p>
   <p>
     This document was published by the <a href="https://www.w3.org/groups/wg/aria">Accessible Rich Internet Applications Working Group</a> as
-    an Editor's Draft.
+    an Editor's Draft. 
   </p><p>Publication as an Editor's Draft does not
   imply endorsement by <abbr title="World Wide Web Consortium">W3C</abbr> and its Members. </p><p>
     This is a draft document and may be updated, replaced or obsoleted by other
     documents at any time. It is inappropriate to cite this document as other
     than work in progress.
-
+    
   </p><p>
-
+    
         This document was produced by a group
         operating under the
         <a href="https://www.w3.org/Consortium/Patent-Policy/"><abbr title="World Wide Web Consortium">W3C</abbr> Patent
           Policy</a>.
-
-
+      
+    
                 <abbr title="World Wide Web Consortium">W3C</abbr> maintains a
                 <a rel="disclosure" href="https://www.w3.org/groups/wg/aria/ipr">public list of any patent disclosures</a>
           made in connection with the deliverables of
@@ -343,13 +343,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
           <a href="https://www.w3.org/Consortium/Patent-Policy/#def-essential">Essential Claim(s)</a>
           must disclose the information in accordance with
           <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">section 6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>.
-
+        
   </p><p>
                   This document is governed by the
                   <a id="w3c_process_revision" href="https://www.w3.org/2021/Process-20211102/">2 November 2021 <abbr title="World Wide Web Consortium">W3C</abbr> Process Document</a>.
                 </p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status of This Document</a></li><li class="tocline"><a class="tocxref" href="#intro"><bdi class="secno">1. </bdi>Introduction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#intro_aapi"><bdi class="secno">1.1 </bdi>Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">2. </bdi>Conformance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#deprecated"><bdi class="secno">2.1 </bdi>Deprecated</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mapping-html-to-accessibility-apis"><bdi class="secno">3. </bdi>Mapping <abbr title="HyperText Markup Language">HTML</abbr> to Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a><ol class="toc"><li class="tocline"><a class="tocxref" href="#mapping_general"><bdi class="secno">3.1 </bdi>General Rules for Exposing <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> Semantics</a></li><li class="tocline"><a class="tocxref" href="#mapping_conflicts"><bdi class="secno">3.2 </bdi>Conflicts Between Native Markup Semantics and <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr></a></li><li class="tocline"><a class="tocxref" href="#mapping_nodirect"><bdi class="secno">3.3 </bdi>Exposing <abbr title="HyperText Markup Language">HTML</abbr> Features That Do Not Directly Map to Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a></li><li class="tocline"><a class="tocxref" href="#html-element-role-mappings"><bdi class="secno">3.4 </bdi><abbr title="HyperText Markup Language">HTML</abbr> Element Role Mappings</a></li><li class="tocline"><a class="tocxref" href="#html-attribute-state-and-property-mappings"><bdi class="secno">3.5 </bdi><abbr title="HyperText Markup Language">HTML</abbr> Attribute State and Property Mappings</a></li></ol></li><li class="tocline"><a class="tocxref" href="#accessible-name-and-description-computation"><bdi class="secno">4. </bdi>Accessible Name and Description Computation</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element"><bdi class="secno">4.1 </bdi><code>input type="text"</code>, <code>input type="password"</code>,<code> input type="search"</code>,<code> input type="tel"</code>, <code>input type="url"</code> and <code>textarea</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#input-type-button-input-type-submit-and-input-type-reset"><bdi class="secno">4.2 </bdi><code>input type="button"</code>, <code>input type="submit"</code> and <code>input type="reset"</code></a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#input-type-image"><bdi class="secno">4.3 </bdi><code>input type="image"</code></a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#button-element"><bdi class="secno">4.4 </bdi><code>button</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#fieldset-and-legend-elements"><bdi class="secno">4.5 </bdi><code>fieldset</code> and <code>legend</code> Elements</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#output-element"><bdi class="secno">4.6 </bdi><code>output</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#other-form-elements"><bdi class="secno">4.7 </bdi>Other Form Elements</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#summary-element"><bdi class="secno">4.8 </bdi><code>summary</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#figure-and-figcaption-elements"><bdi class="secno">4.9 </bdi><code>figure</code> and <code>figcaption</code> Elements</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#img-element"><bdi class="secno">4.10 </bdi><code>img</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#table-element"><bdi class="secno">4.11 </bdi><code>table</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#other-tabular-data-elements"><bdi class="secno">4.12 </bdi>Other <span data-cite="html/tables.html#tables" class="formerLink">Tabular data</span> elements</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#a-element-with-a-href-attribute"><bdi class="secno">4.13 </bdi><code>a</code> Element with a <code>href</code> attribute</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#area-element"><bdi class="secno">4.14 </bdi><code>area</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#iframe-element"><bdi class="secno">4.15 </bdi><code>iframe</code> Element</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#section-elements-and-grouping-content-elements-not-listed-elsewhere"><bdi class="secno">4.16 </bdi><span data-cite="HTML/sections.html#sections" class="formerLink">Section</span> Elements and <span data-cite="HTML/grouping-content.html#grouping-content" class="formerLink">Grouping Content</span> Elements Not listed Elsewhere</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#text-level-elements-not-listed-elsewhere"><bdi class="secno">4.17 </bdi>Text-level Elements Not Listed Elsewhere</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#appendices"><bdi class="secno">A. </bdi>Appendices</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#changelog"><bdi class="secno">A.1 </bdi>Change Log</a><ol class="toc"></ol></li><li class="tocline"><a class="tocxref" href="#acknowledgements"><bdi class="secno">A.2 </bdi>Acknowledgments</a><ol class="toc"></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normative-references"><bdi class="secno">B.1 </bdi>Normative references</a></li><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">B.2 </bdi>Informative references</a></li></ol></li></ol></nav>
   <section id="intro" class="informative"><div class="header-wrapper"><h2 id="x1-introduction"><bdi class="secno">1. </bdi>Introduction</h2><a class="self-link" href="#intro" aria-label="Permalink for Section 1."></a></div><p><em>This section is non-normative.</em></p>
-
+    
     <p>
       This specification defines how <abbr title="HyperText Markup Language">HTML</abbr> user agents respond to and expose <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-role">role</a>, <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-state">state</a> and <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-property">property</a> information provided for Web content. Unless indicated otherwise, an <abbr title="HyperText Markup Language">HTML</abbr> element or attribute with default <cite><a data-matched-text="[[[WAI-ARIA]]]" href="https://www.w3.org/TR/wai-aria-1.1/">Accessible Rich Internet Applications (WAI-ARIA) 1.1</a></cite> semantics must be exposed to the platform <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a> according to the relevant <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mappings defined in the <cite><a data-matched-text="[[[core-aam-1.2]]]" href="https://www.w3.org/TR/core-aam-1.2/">Core Accessibility API Mappings 1.2</a></cite> ([<cite><a class="bibref" data-link-type="biblio" href="#bib-core-aam-1.2" title="Core Accessibility API Mappings 1.2">core-aam-1.2</a></cite>]) specification.
     </p>
@@ -367,11 +367,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <li><cite><a data-matched-text="[[[core-aam-1.2]]]" href="https://www.w3.org/TR/core-aam-1.2/">Core Accessibility API Mappings 1.2</a></cite></li>
       <li><abbr title="HyperText Markup Language">HTML</abbr> Accessibility <abbr title="application programming interface">API</abbr> Mappings 1.0 (this specification)</li>
       <li><cite><a data-matched-text="[[[svg-aam-1.0]]]" href="https://www.w3.org/TR/svg-aam-1.0/">SVG Accessibility API Mappings</a></cite></li>
-
+      
       <li><cite><a href="https://w3c.github.io/mathml-aam/">MathML AAM 1.0</a></cite></li>
     </ul>
     <section id="intro_aapi"><div class="header-wrapper"><h3 id="x1-1-accessibility-apis"><bdi class="secno">1.1 </bdi>Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></h3><a class="self-link" href="#intro_aapi" aria-label="Permalink for Section 1.1"></a></div>
-
+      
       <p>
         <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a> covered by this document are:
       </p>
@@ -406,16 +406,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       Non-normative sections provide information useful to understanding the specification. Such sections may contain examples of recommended practice, but it is not required to follow such recommendations in order to conform to this specification.
     </p>
     <section id="deprecated"><div class="header-wrapper"><h3 id="x2-1-deprecated"><bdi class="secno">2.1 </bdi>Deprecated</h3><a class="self-link" href="#deprecated" aria-label="Permalink for Section 2.1"></a></div>
-
+      
       <p>
         There are currently no deprecated requirements.
       </p>
     </section>
   </section>
   <section id="mapping-html-to-accessibility-apis"><div class="header-wrapper"><h2 id="x3-mapping-html-to-accessibility-apis"><bdi class="secno">3. </bdi>Mapping <abbr title="HyperText Markup Language">HTML</abbr> to Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></h2><a class="self-link" href="#mapping-html-to-accessibility-apis" aria-label="Permalink for Section 3."></a></div>
-
+    
     <section id="mapping_general"><div class="header-wrapper"><h3 id="x3-1-general-rules-for-exposing-wai-aria-semantics"><bdi class="secno">3.1 </bdi>General Rules for Exposing <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> Semantics</h3><a class="self-link" href="#mapping_general" aria-label="Permalink for Section 3.1"></a></div>
-
+      
       <div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Note</span></div><p class="">
         <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> support was first introduced to <abbr title="HyperText Markup Language">HTML</abbr> in [<cite><a class="bibref" data-link-type="biblio" href="#bib-html5" title="HTML5">HTML5</a></cite>].
       </p></div>
@@ -424,14 +424,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </p>
     </section>
     <section id="mapping_conflicts"><div class="header-wrapper"><h3 id="x3-2-conflicts-between-native-markup-semantics-and-wai-aria"><bdi class="secno">3.2 </bdi>Conflicts Between Native Markup Semantics and <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr></h3><a class="self-link" href="#mapping_conflicts" aria-label="Permalink for Section 3.2"></a></div>
-
+      
       <p>
         Where the host language is [<cite><a class="bibref" data-link-type="biblio" href="#bib-html" title="HTML Standard">HTML</a></cite>], user agents <em class="rfc2119">MUST</em> conform to
         <a class="core-mapping" href="https://w3c.github.io/core-aam/#mapping_conflicts">Conflicts between native markup semantics and <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr></a> in the <cite><a data-matched-text="[[[core-aam-1.2]]]" href="https://www.w3.org/TR/core-aam-1.2/">Core Accessibility API Mappings 1.2</a></cite>.
       </p>
     </section>
     <section id="mapping_nodirect"><div class="header-wrapper"><h3 id="x3-3-exposing-html-features-that-do-not-directly-map-to-accessibility-apis"><bdi class="secno">3.3 </bdi>Exposing <abbr title="HyperText Markup Language">HTML</abbr> Features That Do Not Directly Map to Accessibility <abbr title="Application Programming Interfaces">APIs</abbr></h3><a class="self-link" href="#mapping_nodirect" aria-label="Permalink for Section 3.3"></a></div>
-
+      
       <p>
         <abbr title="HyperText Markup Language">HTML</abbr> can include features that are not supported by <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a> at the time of publication. There is not a one to one relationship between all features and platform <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a>. When <abbr title="HyperText Markup Language">HTML</abbr> roles, states and properties do not directly map to an <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">accessibility <abbr title="application programming interface">API</abbr></a>, and there is a method in the <abbr title="application programming interface">API</abbr> to expose a text string, user agents <em class="rfc2119">MUST</em> expose the undefined role, states and properties via that method.
       </p>
@@ -442,7 +442,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </p>
     </section>
     <section id="html-element-role-mappings"><div class="header-wrapper"><h3 id="x3-4-html-element-role-mappings"><bdi class="secno">3.4 </bdi><abbr title="HyperText Markup Language">HTML</abbr> Element Role Mappings</h3><a class="self-link" href="#html-element-role-mappings" aria-label="Permalink for Section 3.4"></a></div>
-
+      
       <ul>
         <li><abbr title="HyperText Markup Language">HTML</abbr> elements with implicit <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> role semantics <em class="rfc2119">MUST</em> be mapped to platform <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria-1.2/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a> according to those <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> roles' mappings as defined in the [<cite><a class="bibref" data-link-type="biblio" href="#bib-core-aam-1.2" title="Core Accessibility API Mappings 1.2">core-aam-1.2</a></cite>] specification.</li>
         <li>"Not mapped" (Not Applicable) means the element does not need to be exposed via an <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria-1.2/#dfn-accessibility-api">accessibility <abbr title="application programming interface">API</abbr></a>. This is usually because the element is not displayed as part of the user interface.</li>
@@ -932,7 +932,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               <td class="uia">
                 <div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div>
                 <div class="relations">
-                  <span class="type">Other properties:</span> The <code>LabeledBy</code> property for the parent <a href="#el-table"><code>table</code></a> element points to the
+                  <span class="type">Other properties:</span> The <code>LabeledBy</code> property for the parent <a href="#el-table"><code>table</code></a> element points to the 
                   UIA element for the <code>caption</code> element.
                 </div>
               </td>
@@ -1606,7 +1606,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               <th>
                 <a data-type="element" href="https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element"><code>img</code></a>
                 <span class="el-context">(<a href="https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-alt"><code>alt</code></a>
-                attribute value is the empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
+                attribute value is an empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
               </th>
               <td class="aria">
                 <div class="role">
@@ -1670,7 +1670,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 <div class="general">If implemented as a color picker:</div>
                 <div class="ctrltype"><span class="type">Control Type:</span> <code>button</code></div>
                 <div class="properties"><span class="type">Localized Control Type: </span> "color picker"</div>
-
+                
               </td>
               <td class="atk">
                 <div class="general">
@@ -1738,7 +1738,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 </td>
                 <td class="comments"></td>
             </tr>
-
+           
             <tr tabindex="-1" data-id="el-input-email">
               <th>
                 <a data-type="element" href="https://html.spec.whatwg.org/multipage/input.html#the-input-element"><code>input</code></a> <span class="el-context">(<a href="https://html.spec.whatwg.org/multipage/input.html#attr-input-type"><code>type</code></a> attribute in the
@@ -2733,7 +2733,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </td>
               <td class="comments"></td>
             </tr>
-
+            
             <tr tabindex="-1" data-id="el-rp">
               <th><a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element"><code>rp</code></a></th>
               <td class="aria">No corresponding role</td>
@@ -2789,7 +2789,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </td>
               <td class="comments"></td>
             </tr>
-
+            
             <tr tabindex="-1" data-id="el-ruby">
               <th><a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element"><code>ruby</code></a></th>
               <td class="aria">No corresponding role</td>
@@ -3700,7 +3700,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/ms726297%28v=VS.85%29.aspx">UIA</a></th><td>
                 <div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div>
                 <div class="relations">
-                  <span class="type">Other properties:</span> The <code>LabeledBy</code> property for the parent <a href="#el-table"><code>table</code></a> element points to the
+                  <span class="type">Other properties:</span> The <code>LabeledBy</code> property for the parent <a href="#el-table"><code>table</code></a> element points to the 
                   UIA element for the <code>caption</code> element.
                 </div>
               </td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td>
@@ -4137,11 +4137,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </caption><tbody><tr><th>[<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria-1.2" title="Accessible Rich Internet Applications (WAI-ARIA) 1.2">wai-aria-1.2</a></cite>]</th><td><a class="core-mapping" href="https://w3c.github.io/core-aam/#role-map-img"><code>img</code></a> role</td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/dd373608%28v=VS.85%29.aspx"><abbr title="Microsoft Active Accessibility">MSAA</abbr></a> + <a href="http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/">IAccessible2</a></th><td><div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div></td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/ms726297%28v=VS.85%29.aspx">UIA</a></th><td><div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div></td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td><div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div></td></tr><tr><th><a href="https://developer.apple.com/reference/appkit/nsaccessibility">AX</a></th><td><div class="general">Use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping</div></td></tr><tr><th>Comments</th><td></td></tr></tbody></table></details><details class="map"><summary id="el-img-empty-alt">
                 <code>img</code>
                 <span class="el-context">(<code>alt</code>
-                attribute value is the empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
+                attribute value is an empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
               </summary><table><caption>
                 <a data-type="element" href="https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element"><code>img</code></a>
                 <span class="el-context">(<a href="https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-alt"><code>alt</code></a>
-                attribute value is the empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
+                attribute value is an empty string, i.e. <code>alt=""</code> or <code>alt</code> with no value in the markup)</span>
               </caption><tbody><tr><th>[<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria-1.2" title="Accessible Rich Internet Applications (WAI-ARIA) 1.2">wai-aria-1.2</a></cite>]</th><td>
                 <div class="role">
                   <a class="core-mapping" href="https://w3c.github.io/core-aam/#role-map-presentation"><code>presentation</code></a>
@@ -4185,7 +4185,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 <div class="general">If implemented as a color picker:</div>
                 <div class="ctrltype"><span class="type">Control Type:</span> <code>button</code></div>
                 <div class="properties"><span class="type">Localized Control Type: </span> "color picker"</div>
-
+                
               </td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td>
                 <div class="general">
                   If implemented as a button, use <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> mapping for <a class="core-mapping" href="https://w3c.github.io/core-aam/#role-map-button"><code>button</code></a>.
@@ -5286,7 +5286,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 </td></tr><tr><th>Comments</th><td></td></tr></tbody></table></details></div>
     </section>
     <section id="html-attribute-state-and-property-mappings"><div class="header-wrapper"><h3 id="x3-5-html-attribute-state-and-property-mappings"><bdi class="secno">3.5 </bdi><abbr title="HyperText Markup Language">HTML</abbr> Attribute State and Property Mappings</h3><a class="self-link" href="#html-attribute-state-and-property-mappings" aria-label="Permalink for Section 3.5"></a></div>
-
+      
       <ul>
         <li><abbr title="HyperText Markup Language">HTML</abbr> attributes with default <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> state and property semantics <em class="rfc2119">MUST</em> be mapped to platform <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria-1.2/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a> according to those <abbr title="Accessible Rich Internet Application">WAI-ARIA</abbr> state and property mappings as defined in the [<cite><a class="bibref" data-link-type="biblio" href="#bib-core-aam-1.2" title="Core Accessibility API Mappings 1.2">core-aam-1.2</a></cite>] specification.</li>
         <li>A '?' in a cell indicates the data has yet to be provided.</li>
@@ -5421,7 +5421,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               <td class="ax"><div class="general">Not mapped</div></td>
               <td class="comments"></td>
             </tr>
-
+            
             <tr tabindex="-1" data-id="att-alt">
               <th><code>alt</code></th>
               <td class="elements">
@@ -6255,7 +6255,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               <th><code>hreflang</code></th>
               <td class="elements">
                 <a href="https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang"><code>a</code></a>;
-
+                
                 <a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-link-hreflang"><code>link</code></a>
               </td>
               <td class="aria"><div class="general">Not mapped</div></td>
@@ -6404,11 +6404,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 </div>
               </td>
               <td class="comments">
-                Refer to <a href="#el-datalist"><code>datalist</code></a>
+                Refer to <a href="#el-datalist"><code>datalist</code></a> 
                 and <a href="#el-input-textetc-autocomplete"><code>input</code></a> element mappings.
               </td>
             </tr>
-
+            
             <tr tabindex="-1" data-id="att-loop">
               <th><code>loop</code></th>
               <td class="elements">
@@ -7396,7 +7396,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                   The <a href="#accessible-name-and-description-computation">Accessible Name and Description Computation</a> section specifies if the <code>title</code> attribute will be mapped and, if so, through what [<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria" title="Accessible Rich Internet Applications (WAI-ARIA) 1.1">WAI-ARIA</a></cite>] property.
                 </div>
 
-
+                
               </td>
             </tr>
             <tr tabindex="-1" data-id="att-title-abbr">
@@ -7660,7 +7660,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               <td class="elements">
                 <a href="https://html.spec.whatwg.org/multipage/input.html#attr-input-value"><code>input</code></a>
               </td>
-              <td class="aria">Not mapped</td>
+              <td class="aria">Not mapped</td> 
               <td class="ia2">
                 <div class="name">
                   Associates the accessible value for entry type input elements
@@ -7695,7 +7695,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </td>
               <td class="uia">
                 <div class="general">
-                  Expose the value of the <code>value</code> attribute as the first text node in the list item.
+                  Expose the value of the <code>value</code> attribute as the first text node in the list item. 
                   If the value of the <code>value</code> attribute is an integer, set the UIA <code>PositionInSet</code> property to the integer value.
                 </div>
               </td>
@@ -7747,7 +7747,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
               </td>
               <td class="comments"></td>
             </tr>
-
+            
             <tr tabindex="-1" data-id="att-width">
               <th><code>width</code></th>
               <td class="elements">
@@ -8330,11 +8330,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 <a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-link-href"><code>link</code></a>
               ]</caption><tbody><tr><th>[<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria-1.2" title="Accessible Rich Internet Applications (WAI-ARIA) 1.2">WAI-ARIA-1.2</a></cite>]</th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/dd373608%28v=VS.85%29.aspx"><abbr title="Microsoft Active Accessibility">MSAA</abbr></a> + <a href="http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/">IAccessible2</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/ms726297%28v=VS.85%29.aspx">UIA</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://developer.apple.com/reference/appkit/nsaccessibility">AX</a></th><td><div class="general">Not mapped</div></td></tr><tr><th>Comments</th><td></td></tr></tbody></table></details><details class="map"><summary id="att-hreflang"><code>hreflang</code> [
                 <code>a</code>;
-
+                
                 <code>link</code>
               ]</summary><table><caption><code>hreflang</code> [
                 <a href="https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang"><code>a</code></a>;
-
+                
                 <a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-link-hreflang"><code>link</code></a>
               ]</caption><tbody><tr><th>[<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria-1.2" title="Accessible Rich Internet Applications (WAI-ARIA) 1.2">WAI-ARIA-1.2</a></cite>]</th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/dd373608%28v=VS.85%29.aspx"><abbr title="Microsoft Active Accessibility">MSAA</abbr></a> + <a href="http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/">IAccessible2</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/ms726297%28v=VS.85%29.aspx">UIA</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td><div class="general">Not mapped</div></td></tr><tr><th><a href="https://developer.apple.com/reference/appkit/nsaccessibility">AX</a></th><td><div class="general">Not mapped</div></td></tr><tr><th>Comments</th><td></td></tr></tbody></table></details><details class="map"><summary id="att-http-equiv"><code>http-equiv</code> [
                 <code>meta</code>
@@ -8417,7 +8417,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                   Property: <code>AXLinkedUIElements</code>: point to the <code>datalist</code> element referred to by the IDREF value of the <code>list</code> attribute.
                 </div>
               </td></tr><tr><th>Comments</th><td>
-                Refer to <a href="#el-datalist"><code>datalist</code></a>
+                Refer to <a href="#el-datalist"><code>datalist</code></a> 
                 and <a href="#el-input-textetc-autocomplete"><code>input</code></a> element mappings.
               </td></tr></tbody></table></details><details class="map"><summary id="att-loop"><code>loop</code> [
                 <code>audio</code>;
@@ -8959,7 +8959,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                   The <a href="#accessible-name-and-description-computation">Accessible Name and Description Computation</a> section specifies if the <code>title</code> attribute will be mapped and, if so, through what [<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria" title="Accessible Rich Internet Applications (WAI-ARIA) 1.1">WAI-ARIA</a></cite>] property.
                 </div>
 
-
+                
               </td></tr></tbody></table></details><details class="map"><summary id="att-title-abbr"><code>title</code> [
                 <code>abbr</code>;
                 <code>dfn</code>
@@ -9155,7 +9155,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
                 </div>
               </td></tr><tr><th><a href="https://msdn.microsoft.com/en-us/library/ms726297%28v=VS.85%29.aspx">UIA</a></th><td>
                 <div class="general">
-                  Expose the value of the <code>value</code> attribute as the first text node in the list item.
+                  Expose the value of the <code>value</code> attribute as the first text node in the list item. 
                   If the value of the <code>value</code> attribute is an integer, set the UIA <code>PositionInSet</code> property to the integer value.
                 </div>
               </td></tr><tr><th><a href="https://gnome.pages.gitlab.gnome.org/atk/">ATK</a></th><td>
@@ -9233,13 +9233,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </section>
   </section>
   <section class="normative" id="accessible-name-and-description-computation"><div class="header-wrapper"><h2 id="x4-accessible-name-and-description-computation"><bdi class="secno">4. </bdi>Accessible Name and Description Computation</h2><a class="self-link" href="#accessible-name-and-description-computation" aria-label="Permalink for Section 4."></a></div>
-
+    
     <p>The terms <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> and <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> are properties provided in all <a class="termref informative" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-accessibility-api">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a>. The name of the properties may differ across <abbr title="Application Programming Interfaces">APIs</abbr> but they serve the same function: as a container for a short (name) or longer (description) string of text. </p>
     <p>The <a href="https://w3c.github.io/accname/#mapping_additional_nd_te" class="accname">text alternative computation</a> is used to generate both the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> and <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a>. There are different rules provided for several different types of <a class="termref informative" data-lt="element" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-element">elements</a>, <a class="termref informative" data-lt="node" data-type="dfn" href="https://www.w3.org/TR/wai-aria/#dfn-node">nodes</a>, and combinations of markup.</p>
     <section id="input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element"><div class="header-wrapper"><h3 id="x4-1-input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element"><bdi class="secno">4.1 </bdi><code>input type="text"</code>, <code>input type="password"</code>,<code> input type="search"</code>,<code> input type="tel"</code>, <code>input type="url"</code> and <code>textarea</code> Element</h3><a class="self-link" href="#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" aria-label="Permalink for Section 4.1"></a></div>
-
+      
       <section id="input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-1-1-input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation"><bdi class="secno">4.1.1 </bdi><code>input type="text"</code>, <code>input type="password"</code>,<code> input type="search"</code>,<code> input type="tel"</code>, <code>input type="email"</code>, <code>input type="url"</code> and <code>textarea</code> Element Accessible Name Computation</h4><a class="self-link" href="#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation" aria-label="Permalink for Section 4.1.1"></a></div>
-
+        
         <ol>
           <li>
             If the control has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9255,7 +9255,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-1-2-input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-description-computation"><bdi class="secno">4.1.2 </bdi><code>input type="text"</code>, <code>input type="password"</code>, <code>input type="search"</code>, <code>input type="tel"</code>, <code>input type="email"</code>, <code>input type="url"</code> and <code>textarea</code> Element Accessible Description Computation</h4><a class="self-link" href="#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-description-computation" aria-label="Permalink for Section 4.1.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9270,9 +9270,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="input-type-button-input-type-submit-and-input-type-reset"><div class="header-wrapper"><h3 id="x4-2-input-type-button-input-type-submit-and-input-type-reset"><bdi class="secno">4.2 </bdi><code>input type="button"</code>, <code>input type="submit"</code> and <code>input type="reset"</code></h3><a class="self-link" href="#input-type-button-input-type-submit-and-input-type-reset" aria-label="Permalink for Section 4.2"></a></div>
-
+      
       <section id="input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-2-1-input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation"><bdi class="secno">4.2.1 </bdi><code>input type="button"</code> ,<code> input type="submit"</code> and <code>input type="reset"</code> Accessible Name Computation</h4><a class="self-link" href="#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation" aria-label="Permalink for Section 4.2.1"></a></div>
-
+        
         <ol>
           <li>
             If the control has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9291,7 +9291,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="input-type-button-input-type-submit-and-input-type-reset-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-2-2-input-type-button-input-type-submit-and-input-type-reset-accessible-description-computation"><bdi class="secno">4.2.2 </bdi><code>input type="button"</code> ,<code> input type="submit"</code> and <code>input type="reset"</code> Accessible Description Computation</h4><a class="self-link" href="#input-type-button-input-type-submit-and-input-type-reset-accessible-description-computation" aria-label="Permalink for Section 4.2.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9309,15 +9309,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="input-type-image"><div class="header-wrapper"><h3 id="x4-3-input-type-image"><bdi class="secno">4.3 </bdi><code>input type="image"</code></h3><a class="self-link" href="#input-type-image" aria-label="Permalink for Section 4.3"></a></div>
-
+      
       <section id="input-type-image-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-3-1-input-type-image-accessible-name-computation"><bdi class="secno">4.3.1 </bdi><code>input type="image"</code> Accessible Name Computation</h4><a class="self-link" href="#input-type-image-accessible-name-computation" aria-label="Permalink for Section 4.3.1"></a></div>
-
+        
         <ol>
           <li>
             If the control has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
           </li>
           <li>Otherwise use <code>alt</code> attribute.</li>
-
+          
           <li>Otherwise use <code>title</code> attribute.</li>
           <li>
             Otherwise if the previous steps do not yield a usable text string, the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is a localized string of the word "Submit Query".
@@ -9328,7 +9328,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="input-type-image-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-3-2-input-type-image-accessible-description-computation"><bdi class="secno">4.3.2 </bdi><code>input type="image"</code> Accessible Description Computation</h4><a class="self-link" href="#input-type-image-accessible-description-computation" aria-label="Permalink for Section 4.3.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9343,9 +9343,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="button-element"><div class="header-wrapper"><h3 id="x4-4-button-element"><bdi class="secno">4.4 </bdi><code>button</code> Element</h3><a class="self-link" href="#button-element" aria-label="Permalink for Section 4.4"></a></div>
-
+      
       <section id="button-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-4-1-button-element-accessible-name-computation"><bdi class="secno">4.4.1 </bdi><code>button</code> Element Accessible Name Computation</h4><a class="self-link" href="#button-element-accessible-name-computation" aria-label="Permalink for Section 4.4.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>button</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9358,7 +9358,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="button-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-4-2-button-element-accessible-description-computation"><bdi class="secno">4.4.2 </bdi><code>button</code> Element Accessible Description Computation</h4><a class="self-link" href="#button-element-accessible-description-computation" aria-label="Permalink for Section 4.4.2"></a></div>
-
+        
         <ol>
           <li>
             If the <code>button</code> has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the accessible description is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9373,9 +9373,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="fieldset-and-legend-elements"><div class="header-wrapper"><h3 id="x4-5-fieldset-and-legend-elements"><bdi class="secno">4.5 </bdi><code>fieldset</code> and <code>legend</code> Elements</h3><a class="self-link" href="#fieldset-and-legend-elements" aria-label="Permalink for Section 4.5"></a></div>
-
+      
       <section id="fieldset-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-5-1-fieldset-element-accessible-name-computation"><bdi class="secno">4.5.1 </bdi><code>fieldset</code> Element Accessible Name Computation</h4><a class="self-link" href="#fieldset-element-accessible-name-computation" aria-label="Permalink for Section 4.5.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>fieldset</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9390,7 +9390,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="fieldset-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-5-2-fieldset-element-accessible-description-computation"><bdi class="secno">4.5.2 </bdi><code>fieldset</code> Element Accessible Description Computation</h4><a class="self-link" href="#fieldset-element-accessible-description-computation" aria-label="Permalink for Section 4.5.2"></a></div>
-
+        
         <ol>
           <li>
             If the <code>fieldset</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9405,9 +9405,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="output-element"><div class="header-wrapper"><h3 id="x4-6-output-element"><bdi class="secno">4.6 </bdi><code>output</code> Element</h3><a class="self-link" href="#output-element" aria-label="Permalink for Section 4.6"></a></div>
-
+      
       <section id="output-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-6-1-output-element-accessible-name-computation"><bdi class="secno">4.6.1 </bdi><code>output</code> Element Accessible Name Computation</h4><a class="self-link" href="#output-element-accessible-name-computation" aria-label="Permalink for Section 4.6.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>output</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9420,7 +9420,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="output-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-6-2-output-element-accessible-description-computation"><bdi class="secno">4.6.2 </bdi><code>output</code> Element Accessible Description Computation</h4><a class="self-link" href="#output-element-accessible-description-computation" aria-label="Permalink for Section 4.6.2"></a></div>
-
+        
         <ol>
           <li>Use <code>aria-describedby</code>.</li>
           <li>
@@ -9433,9 +9433,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="other-form-elements"><div class="header-wrapper"><h3 id="x4-7-other-form-elements"><bdi class="secno">4.7 </bdi>Other Form Elements</h3><a class="self-link" href="#other-form-elements" aria-label="Permalink for Section 4.7"></a></div>
-
+      
       <section id="other-form-elements-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-7-1-other-form-elements-accessible-name-computation"><bdi class="secno">4.7.1 </bdi>Other Form Elements Accessible Name Computation</h4><a class="self-link" href="#other-form-elements-accessible-name-computation" aria-label="Permalink for Section 4.7.1"></a></div>
-
+        
         <ol>
           <li>
             If the control has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9448,7 +9448,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="other-form-elements-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-7-2-other-form-elements-accessible-description-computation"><bdi class="secno">4.7.2 </bdi>Other Form Elements Accessible Description Computation</h4><a class="self-link" href="#other-form-elements-accessible-description-computation" aria-label="Permalink for Section 4.7.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9463,9 +9463,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="summary-element"><div class="header-wrapper"><h3 id="x4-8-summary-element"><bdi class="secno">4.8 </bdi><code>summary</code> Element</h3><a class="self-link" href="#summary-element" aria-label="Permalink for Section 4.8"></a></div>
-
+      
       <section id="summary-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-8-1-summary-element-accessible-name-computation"><bdi class="secno">4.8.1 </bdi><code>summary</code> Element Accessible Name Computation</h4><a class="self-link" href="#summary-element-accessible-name-computation" aria-label="Permalink for Section 4.8.1"></a></div>
-
+        
         <ol>
           <li>
             If the first <code>summary</code> element, which is a direct child of the <code>details</code> element, has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9481,7 +9481,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="summary-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-8-2-summary-element-accessible-description-computation"><bdi class="secno">4.8.2 </bdi><code>summary</code> Element Accessible Description Computation</h4><a class="self-link" href="#summary-element-accessible-description-computation" aria-label="Permalink for Section 4.8.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9499,9 +9499,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="figure-and-figcaption-elements"><div class="header-wrapper"><h3 id="x4-9-figure-and-figcaption-elements"><bdi class="secno">4.9 </bdi><code>figure</code> and <code>figcaption</code> Elements</h3><a class="self-link" href="#figure-and-figcaption-elements" aria-label="Permalink for Section 4.9"></a></div>
-
+      
       <section id="figure-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-9-1-figure-element-accessible-name-computation"><bdi class="secno">4.9.1 </bdi><code>figure</code> Element Accessible Name Computation</h4><a class="self-link" href="#figure-element-accessible-name-computation" aria-label="Permalink for Section 4.9.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>figure</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9516,7 +9516,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="figure-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-9-2-figure-element-accessible-description-computation"><bdi class="secno">4.9.2 </bdi><code>figure</code> Element Accessible Description Computation</h4><a class="self-link" href="#figure-element-accessible-description-computation" aria-label="Permalink for Section 4.9.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9529,9 +9529,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="img-element"><div class="header-wrapper"><h3 id="x4-10-img-element"><bdi class="secno">4.10 </bdi><code>img</code> Element</h3><a class="self-link" href="#img-element" aria-label="Permalink for Section 4.10"></a></div>
-
+      
       <section id="img-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-10-1-img-element-accessible-name-computation"><bdi class="secno">4.10.1 </bdi><code>img</code> Element Accessible Name Computation</h4><a class="self-link" href="#img-element-accessible-name-computation" aria-label="Permalink for Section 4.10.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>img</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9539,7 +9539,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
           <li>
             Otherwise use <code>alt</code> attribute, even if its value is the empty string.
             <div class="note" role="note" id="issue-container-generatedID-2"><div role="heading" class="note-title marker" id="h-note-2" aria-level="5"><span>Note</span></div><div class="">
-              An <code>img</code> with an <code>alt</code> attribute whose value is the empty string is mapped to the
+              An <code>img</code> with an <code>alt</code> attribute whose value is the empty string is mapped to the 
               <a class="core-mapping" href="https://w3c.github.io/core-aam/#role-map-presentation"><code>presentation</code></a> role. It has no accessible name.
             </div></div>
           </li>
@@ -9548,7 +9548,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="img-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-10-2-img-element-accessible-description-computation"><bdi class="secno">4.10.2 </bdi><code>img</code> Element Accessible Description Computation</h4><a class="self-link" href="#img-element-accessible-description-computation" aria-label="Permalink for Section 4.10.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9563,9 +9563,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="table-element"><div class="header-wrapper"><h3 id="x4-11-table-element"><bdi class="secno">4.11 </bdi><code>table</code> Element</h3><a class="self-link" href="#table-element" aria-label="Permalink for Section 4.11"></a></div>
-
+      
       <section id="table-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-11-1-table-element-accessible-name-computation"><bdi class="secno">4.11.1 </bdi><code>table</code> Element Accessible Name Computation</h4><a class="self-link" href="#table-element-accessible-name-computation" aria-label="Permalink for Section 4.11.1"></a></div>
-
+        
         <ol>
           <li>
             If the <code>table</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9580,7 +9580,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="table-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-11-2-table-element-accessible-description-computation"><bdi class="secno">4.11.2 </bdi><code>table</code> Element Accessible Description Computation</h4><a class="self-link" href="#table-element-accessible-description-computation" aria-label="Permalink for Section 4.11.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9596,9 +9596,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="other-tabular-data-elements"><div class="header-wrapper"><h3 id="x4-12-other-tabular-data-elements"><bdi class="secno">4.12 </bdi>Other <a href="https://html.spec.whatwg.org/multipage/tables.html#tables">Tabular data</a> elements</h3><a class="self-link" href="#other-tabular-data-elements" aria-label="Permalink for Section 4.12"></a></div>
-
+      
       <section id="tr-td-th-elements-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-12-1-tr-td-th-elements-accessible-name-computation"><bdi class="secno">4.12.1 </bdi><code>tr</code>, <code>td</code>, <code>th</code> Elements Accessible Name Computation</h4><a class="self-link" href="#tr-td-th-elements-accessible-name-computation" aria-label="Permalink for Section 4.12.1"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9610,7 +9610,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="tr-td-th-elements-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-12-2-tr-td-th-elements-accessible-description-computation"><bdi class="secno">4.12.2 </bdi><code>tr</code>, <code>td</code>, <code>th</code> Elements Accessible Description Computation</h4><a class="self-link" href="#tr-td-th-elements-accessible-description-computation" aria-label="Permalink for Section 4.12.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9625,9 +9625,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="a-element-with-a-href-attribute"><div class="header-wrapper"><h3 id="x4-13-a-element-with-a-href-attribute"><bdi class="secno">4.13 </bdi><code>a</code> Element with a <code>href</code> attribute</h3><a class="self-link" href="#a-element-with-a-href-attribute" aria-label="Permalink for Section 4.13"></a></div>
-
+      
       <section id="a-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-13-1-a-element-accessible-name-computation"><bdi class="secno">4.13.1 </bdi><code>a</code> Element Accessible Name Computation</h4><a class="self-link" href="#a-element-accessible-name-computation" aria-label="Permalink for Section 4.13.1"></a></div>
-
+        
         <ol>
           <li>
            If the <code>a</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9640,7 +9640,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="a-element-with-a-href-attribute-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-13-2-a-element-with-a-href-attribute-accessible-description-computation"><bdi class="secno">4.13.2 </bdi><code>a</code> Element with a <code>href</code> attribute Accessible Description Computation</h4><a class="self-link" href="#a-element-with-a-href-attribute-accessible-description-computation" aria-label="Permalink for Section 4.13.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9655,9 +9655,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="area-element"><div class="header-wrapper"><h3 id="x4-14-area-element"><bdi class="secno">4.14 </bdi><code>area</code> Element</h3><a class="self-link" href="#area-element" aria-label="Permalink for Section 4.14"></a></div>
-
+      
       <section id="area-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-14-1-area-element-accessible-name-computation"><bdi class="secno">4.14.1 </bdi><code>area</code> Element Accessible Name Computation</h4><a class="self-link" href="#area-element-accessible-name-computation" aria-label="Permalink for Section 4.14.1"></a></div>
-
+        
         <ol>
           <li>
            If the <code>area</code> element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9670,7 +9670,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="area-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-14-2-area-element-accessible-description-computation"><bdi class="secno">4.14.2 </bdi><code>area</code> Element Accessible Description Computation</h4><a class="self-link" href="#area-element-accessible-description-computation" aria-label="Permalink for Section 4.14.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9685,9 +9685,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="iframe-element"><div class="header-wrapper"><h3 id="x4-15-iframe-element"><bdi class="secno">4.15 </bdi><code>iframe</code> Element</h3><a class="self-link" href="#iframe-element" aria-label="Permalink for Section 4.15"></a></div>
-
+      
       <section id="iframe-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-15-1-iframe-element-accessible-name-computation"><bdi class="secno">4.15.1 </bdi><code>iframe</code> Element Accessible Name Computation</h4><a class="self-link" href="#iframe-element-accessible-name-computation" aria-label="Permalink for Section 4.15.1"></a></div>
-
+        
         <ol>
           <li>If the element  has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
           </li>
@@ -9697,7 +9697,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         <div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-3" aria-level="5"><span>Note</span></div><p class="">The document referenced by the <code>src</code> of the <code>iframe</code> element gets its name from that document's <code>title</code> element, like any other document. If there is no <code>title</code> provided, there is no accessible name.</p></div>
       </section>
       <section id="iframe-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-15-2-iframe-element-accessible-description-computation"><bdi class="secno">4.15.2 </bdi><code>iframe</code> Element Accessible Description Computation</h4><a class="self-link" href="#iframe-element-accessible-description-computation" aria-label="Permalink for Section 4.15.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9712,9 +9712,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="section-elements-and-grouping-content-elements-not-listed-elsewhere"><div class="header-wrapper"><h3 id="x4-16-section-elements-and-grouping-content-elements-not-listed-elsewhere"><bdi class="secno">4.16 </bdi><a href="https://html.spec.whatwg.org/multipage/sections.html#sections">Section</a> Elements and <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#grouping-content">Grouping Content</a> Elements Not listed Elsewhere</h3><a class="self-link" href="#section-elements-and-grouping-content-elements-not-listed-elsewhere" aria-label="Permalink for Section 4.16"></a></div>
-
+      
       <section id="section-and-grouping-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-16-1-section-and-grouping-element-accessible-name-computation"><bdi class="secno">4.16.1 </bdi>Section and Grouping Element Accessible Name Computation</h4><a class="self-link" href="#section-and-grouping-element-accessible-name-computation" aria-label="Permalink for Section 4.16.1"></a></div>
-
+        
         <ol>
           <li>
             If the element  has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9726,7 +9726,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="section-and-grouping-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-16-2-section-and-grouping-element-accessible-description-computation"><bdi class="secno">4.16.2 </bdi>Section and Grouping Element Accessible Description Computation</h4><a class="self-link" href="#section-and-grouping-element-accessible-description-computation" aria-label="Permalink for Section 4.16.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9741,12 +9741,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section>
     </section>
     <section id="text-level-elements-not-listed-elsewhere"><div class="header-wrapper"><h3 id="x4-17-text-level-elements-not-listed-elsewhere"><bdi class="secno">4.17 </bdi>Text-level Elements Not Listed Elsewhere</h3><a class="self-link" href="#text-level-elements-not-listed-elsewhere" aria-label="Permalink for Section 4.17"></a></div>
-
+      
       <p>
         <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element"><code>abbr</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element"><code>b</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element"><code>bdi</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element"><code>bdo</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element"><code>br</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element"><code>cite</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element"><code>code</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element"><code>dfn</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element"><code>em</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element"><code>i</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element"><code>kbd</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element"><code>mark</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element"><code>q</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element"><code>rp</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rt-element"><code>rt</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element"><code>ruby</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element"><code>s</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-samp-element"><code>samp</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element"><code>small</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element"><code>strong</code></a>, <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements"><code>sub</code> and <code>sup</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element"><code>time</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element"><code>u</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element"><code>var</code></a>, <a data-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element"><code>wbr</code></a>
       </p>
       <section id="text-level-element-accessible-name-computation"><div class="header-wrapper"><h4 id="x4-17-1-text-level-element-accessible-name-computation"><bdi class="secno">4.17.1 </bdi>Text-level Element Accessible Name Computation</h4><a class="self-link" href="#text-level-element-accessible-name-computation" aria-label="Permalink for Section 4.17.1"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-label"><code>aria-label</code></a> or an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-labelledby"><code>aria-labelledby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-name">accessible name</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9758,7 +9758,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </ol>
       </section>
       <section id="text-level-element-accessible-description-computation"><div class="header-wrapper"><h4 id="x4-17-2-text-level-element-accessible-description-computation"><bdi class="secno">4.17.2 </bdi>Text-level Element Accessible Description Computation</h4><a class="self-link" href="#text-level-element-accessible-description-computation" aria-label="Permalink for Section 4.17.2"></a></div>
-
+        
         <ol>
           <li>
             If the element has an <a href="https://www.w3.org/TR/wai-aria-1.2/#aria-describedby"><code>aria-describedby</code></a> attribute the <a href="https://www.w3.org/TR/accname-1.2/#dfn-accessible-description">accessible description</a> is to be calculated using the algorithm defined in <a href="https://w3c.github.io/accname/" class="accname">Accessible Name and Description: Computation and <abbr title="application programming interface">API</abbr> Mappings</a>.
@@ -9774,12 +9774,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </section>
   </section>
   <section id="appendices" class="appendix"><div class="header-wrapper"><h2 id="a-appendices"><bdi class="secno">A. </bdi>Appendices</h2><a class="self-link" href="#appendices" aria-label="Permalink for Appendix A."></a></div>
-
+    
     <section class="appendix" id="changelog"><div class="header-wrapper"><h3 id="a-1-change-log"><bdi class="secno">A.1 </bdi>Change Log</h3><a class="self-link" href="#changelog" aria-label="Permalink for Appendix A.1"></a></div>
-
+      
       <p>Review the <a href="https://github.com/w3c/html-aam/commits/gh-pages">commit history</a> of this document on GitHub.</p>
       <section id="substantive-changes-since-moving-to-the-accessible-rich-internet-applications-working-group-03-nov-2019"><div class="header-wrapper"><h4 id="a-1-1-substantive-changes-since-moving-to-the-accessible-rich-internet-applications-working-group-03-nov-2019"><bdi class="secno">A.1.1 </bdi>Substantive changes since moving to the <a href="https://www.w3.org/WAI/ARIA/">Accessible Rich Internet Applications Working Group</a> (03-Nov-2019)</h4><a class="self-link" href="#substantive-changes-since-moving-to-the-accessible-rich-internet-applications-working-group-03-nov-2019" aria-label="Permalink for Appendix A.1.1"></a></div>
-
+        
         <ul>
           <li>03-Apr-2022: Update <code>aside</code> mappings based on its nesting context. See <a href="https://github.com/w3c/html-aam/pull/350">GitHub PR 350</a>.</li>
           <li>06-Mar-2022: Update the following elements to map to the <code>generic</code> role: <code>a no href</code>, <code>footer</code> not scoped to <code>body</code>, <code>header</code> not scoped to <code>body</code>, <code>samp</code>, <code>span</code>. See <a href="https://github.com/w3c/html-aam/pull/364">GitHub PR 364</a>.</li>
@@ -9854,16 +9854,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       </section></section>
     </section>
     <section class="appendix informative" id="acknowledgements"><div class="header-wrapper"><h3 id="a-2-acknowledgments"><bdi class="secno">A.2 </bdi>Acknowledgments</h3><a class="self-link" href="#acknowledgements" aria-label="Permalink for Appendix A.2"></a></div><p><em>This section is non-normative.</em></p>
-
+      
       <p>The following people contributed to the development of this document.</p>
       <section class="section" id="ack_group"><div class="header-wrapper"><h4 id="a-2-1-participants-active-in-the-html-accessibility-task-force-active-at-the-time-of-publication"><bdi class="secno">A.2.1 </bdi>Participants active in the <abbr title="HyperText Markup Language">HTML</abbr> Accessibility Task Force active at the time of publication</h4><a class="self-link" href="#ack_group" aria-label="Permalink for Appendix A.2.1"></a></div>
-
+        
         <ul id="gh-contributors"><li><a href="https://github.com/AlexLloyd0">Alex Lloyd</a></li><li><a href="https://github.com/asurkov">Alexander Surkov</a></li><li><a href="https://github.com/boggydigital">Bogdan Brinza</a></li><li><a href="https://github.com/carmacleod">Carolyn MacLeod</a></li><li><a href="https://github.com/dandclark">Dan Clark</a></li><li><a href="https://github.com/deniak">Denis Ah-Kang</a></li><li><a href="https://github.com/dontcallmedom">Dominique Hazael-Massieux</a></li><li><a href="https://github.com/einSelbst">einSelbst</a></li><li><a href="https://github.com/github-actions[bot]">github-actions[bot]</a></li><li><a href="https://github.com/jnurthen">James Nurthen</a></li><li><a href="https://github.com/jasonkiss">Jason Kiss</a></li><li><a href="https://github.com/joanmarie">joanmarie</a></li><li><a href="https://github.com/Johanna-hub">Johanna</a></li><li><a href="https://github.com/jongund">Jon Gunderson</a></li><li><a href="https://github.com/LJWatson">Léonie Watson</a></li><li><a href="https://github.com/marcoscaceres">Marcos Cáceres</a></li><li><a href="https://github.com/melanierichards">Melanie Richards</a></li><li><a href="https://github.com/michael-n-cooper">Michael Cooper</a></li><li><a href="https://github.com/nschonni">Nick Schonning</a></li><li><a href="https://github.com/plehegar">Philippe Le Hegaret</a></li><li><a href="https://github.com/sidvishnoi">Sid Vishnoi</a></li><li><a href="https://github.com/zcorpan">Simon Pieters</a></li><li><a href="https://github.com/vikas-parashar">Vikas Parashar</a></li><li><a href="https://github.com/siusin">Xiaoqian Wu</a></li><li><a href="https://github.com/ylafon">Yves Lafon</a></li></ul>
 
-
+        
       </section>
       <section class="section" id="ack_funders"><div class="header-wrapper"><h4 id="a-2-2-enabling-funders"><bdi class="secno">A.2.2 </bdi>Enabling funders</h4><a class="self-link" href="#ack_funders" aria-label="Permalink for Appendix A.2.2"></a></div>
-
+	
 	<p>This publication has been funded in part with U.S. Federal funds from the Department of Education, National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), initially under contract number ED-OSE-10-C-0067, then under contract number HHSP23301500054C, and now under HHS75P00120P00168. The content of this publication does not necessarily reflect the views or policies of the U.S. Department of Education, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government.</p>
 </section>
 
@@ -9872,7 +9872,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 
 
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="b-references"><bdi class="secno">B. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix B."></a></div><section id="normative-references"><div class="header-wrapper"><h3 id="b-1-normative-references"><bdi class="secno">B.1 </bdi>Normative references</h3><a class="self-link" href="#normative-references" aria-label="Permalink for Appendix B.1"></a></div>
-
+    
     <dl class="bibliography"><dt id="bib-accname-1.2">[accname-1.2]</dt><dd>
       <a href="https://www.w3.org/TR/accname-1.2/"><cite>Accessible Name and Description Computation 1.2</cite></a>. Bryan Garaventa; Joanmarie Diggs; Michael Cooper.  W3C. 11 July 2019. W3C Working Draft. URL: <a href="https://www.w3.org/TR/accname-1.2/">https://www.w3.org/TR/accname-1.2/</a>
     </dd><dt id="bib-core-aam-1.2">[core-aam-1.2]</dt><dd>
@@ -9891,7 +9891,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <a href="https://www.w3.org/TR/wai-aria-1.2/"><cite>Accessible Rich Internet Applications (WAI-ARIA) 1.2</cite></a>. Joanmarie Diggs; James Nurthen; Michael Cooper.  W3C. 8 December 2021. W3C Candidate Recommendation. URL: <a href="https://www.w3.org/TR/wai-aria-1.2/">https://www.w3.org/TR/wai-aria-1.2/</a>
     </dd></dl>
   </section><section id="informative-references"><div class="header-wrapper"><h3 id="b-2-informative-references"><bdi class="secno">B.2 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix B.2"></a></div>
-
+    
     <dl class="bibliography"><dt id="bib-accname-aam-1.1">[accname-aam-1.1]</dt><dd>
       <a href="https://www.w3.org/TR/accname-1.1/"><cite>Accessible Name and Description Computation 1.1</cite></a>. Joanmarie Diggs; Bryan Garaventa; Michael Cooper.  W3C. 18 December 2018. W3C Recommendation. URL: <a href="https://www.w3.org/TR/accname-1.1/">https://www.w3.org/TR/accname-1.1/</a>
     </dd><dt id="bib-at-spi">[AT-SPI]</dt><dd>
